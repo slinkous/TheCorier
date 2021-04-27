@@ -53,7 +53,7 @@ Assets {
     OwnerAccountId: "3d4151ca6c1f44ed80f67c77c7fe422f"
     OwnerName: "disastronaut"
     Version: "1.1.0"
-    Description: "Let players tip you for your hard work with this complete* tip jar kit!\r\n\r\n*Just add Perk and Leaderboard!"
+    Description: "Let players tip you for your hard work with this complete* tip jar kit!\r\n\r\n*Just add Perk and Leaderboard!\r\n\r\nUPDATE:\r\n- The trigger and UI are now all client-side, so you don\'t have to see the annoying \"Press F to TIp the Creator\" dialogue on top of your beautiful tip jar puns.\r\n\r\nTutorial:\r\nhttps://youtu.be/6vP6D10KoNM"
   }
   SerializationVersion: 81
 }
