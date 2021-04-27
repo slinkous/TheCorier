@@ -44,6 +44,7 @@ Objects {
   ChildIds: 540490653933965081
   ChildIds: 5519927040684667227
   ChildIds: 17575067366088391984
+  ChildIds: 16041380698200912908
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -56,6 +57,38 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 16041380698200912908
+  Name: "Portal Carousel"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12754911357144525747
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Portal Carousel"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15799531278508727848
+    }
   }
 }
 Objects {
