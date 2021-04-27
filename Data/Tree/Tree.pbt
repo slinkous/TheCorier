@@ -44,7 +44,7 @@ Objects {
   ChildIds: 540490653933965081
   ChildIds: 5519927040684667227
   ChildIds: 17575067366088391984
-  ChildIds: 16041380698200912908
+  ChildIds: 13695508322259535218
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -60,9 +60,13 @@ Objects {
   }
 }
 Objects {
-  Id: 16041380698200912908
+  Id: 13695508322259535218
   Name: "Portal Carousel"
   Transform {
+    Location {
+      Y: 1800.60559
+      Z: 270.859497
+    }
     Scale {
       X: 1
       Y: 1
@@ -70,32 +74,177 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  ChildIds: 16786258505230643028
+  ChildIds: 5436993673528759443
+  ChildIds: 6061193334972753984
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 12754911357144525747
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Portal Carousel"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            Y: 1800.60559
-            Z: 270.859497
-          }
-        }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 13695508322259535218
+    SubobjectId: 12754911357144525747
+    InstanceId: 16041380698200912908
+    TemplateId: 15799531278508727848
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 6061193334972753984
+  Name: "spin"
+  Transform {
+    Location {
+      X: 1551
+      Y: 101
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13695508322259535218
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:RotationVector"
+      Rotator {
+        Yaw: 5
       }
     }
-    TemplateAsset {
-      Id: 15799531278508727848
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "spin"
+  }
+  InstanceHistory {
+    SelfId: 6061193334972753984
+    SubobjectId: 6561493099243783809
+    InstanceId: 16041380698200912908
+    TemplateId: 15799531278508727848
+  }
+}
+Objects {
+  Id: 5436993673528759443
+  Name: "Material Rolling Movement Rocks Stones Debris Loop 01 SFX"
+  Transform {
+    Location {
+      X: 567.220703
+      Y: 79.1796875
+      Z: 58.0031586
     }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13695508322259535218
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 3432605588172399216
+    }
+    AutoPlay: true
+    Volume: 1
+    Falloff: 800
+    Radius: 800
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+  InstanceHistory {
+    SelfId: 5436993673528759443
+    SubobjectId: 4928803847773895250
+    InstanceId: 16041380698200912908
+    TemplateId: 15799531278508727848
+  }
+}
+Objects {
+  Id: 16786258505230643028
+  Name: "Vault - Room Container"
+  Transform {
+    Location {
+      X: 653
+      Y: 59.0449219
+      Z: 249
+    }
+    Rotation {
+      Pitch: 90
+    }
+    Scale {
+      X: 13.7000008
+      Y: 21.7000084
+      Z: 9.40000057
+    }
+  }
+  ParentId: 13695508322259535218
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 183152300358340459
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4599583294396833329
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 16786258505230643028
+    SubobjectId: 16710167852052152725
+    InstanceId: 16041380698200912908
+    TemplateId: 15799531278508727848
   }
 }
 Objects {

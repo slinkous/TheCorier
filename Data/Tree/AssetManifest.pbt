@@ -494,6 +494,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4599583294396833329
+  Name: "Container - Square 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_container_square_ref"
+  }
+}
+Assets {
   Id: 4594745531699986479
   Name: "Craftsman Wall Interior 01 Half"
   PlatformAssetType: 1
@@ -540,6 +549,15 @@ Assets {
         Value: "mc:enetreferencetype:creatorperk"
       }
     }
+  }
+}
+Assets {
+  Id: 3432605588172399216
+  Name: "Sports Bowling Ball Rolling on Floor Loop 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_sports_bowling_ball_rolling_floor_loop_01_Cue_ref"
   }
 }
 Assets {
@@ -630,6 +648,15 @@ Assets {
   PrimaryAsset {
     AssetType: "AudioBlueprintAssetRef"
     AssetId: "sfxabp_object_domestic_door_ref"
+  }
+}
+Assets {
+  Id: 183152300358340459
+  Name: "Bricks Concrete Cinder Block 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_brick_concrete_001"
   }
 }
 Assets {
