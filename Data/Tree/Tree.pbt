@@ -84,6 +84,13 @@ Objects {
           Name: "Name"
           String: "Portal Carousel"
         }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Y: 1800.60559
+            Z: 270.859497
+          }
+        }
       }
     }
     TemplateAsset {
