@@ -45,6 +45,7 @@ Objects {
   ChildIds: 5519927040684667227
   ChildIds: 17575067366088391984
   ChildIds: 13695508322259535218
+  ChildIds: 2777875072660093653
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -60,12 +61,52 @@ Objects {
   }
 }
 Objects {
+  Id: 2777875072660093653
+  Name: "Mushroom - Boletus edulis"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 934477044701462506
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Mushroom - Boletus edulis"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1381.28723
+            Y: -1183.76587
+            Z: -14.296875
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2297318060899940813
+    }
+  }
+}
+Objects {
   Id: 13695508322259535218
   Name: "Portal Carousel"
   Transform {
     Location {
-      Y: 1800.60559
-      Z: 270.859497
+      Y: 1691.21509
+      Z: 282.889832
     }
     Scale {
       X: 1
