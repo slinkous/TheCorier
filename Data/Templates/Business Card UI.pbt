@@ -74,6 +74,15 @@ Assets {
             }
           }
           Canvas {
+            Opacity: 1
+            IsHUD: true
+            CanvasWorldSize {
+              X: 1024
+              Y: 1024
+            }
+            TwoSided: true
+            TickWhenOffScreen: true
+            RedrawTime: 30
           }
           AnchorLayout {
             SelfAnchor {
@@ -250,6 +259,7 @@ Assets {
           }
           UseParentHeight: true
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -424,6 +434,7 @@ Assets {
           }
           UseParentHeight: true
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -702,6 +713,12 @@ Assets {
             IsButtonEnabled: true
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -845,6 +862,12 @@ Assets {
             }
             IsButtonEnabled: true
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -1028,6 +1051,6 @@ Assets {
   Marketplace {
     Description: "This is a template for a UI business card that can be submitted to Coffee Shop RPG to allow players to randomly discover your game and jump to it directly from the Coffee Shop! See the README for complete instructions on how to customize and submit your business card!\r\n\r\nThe business card holder model and teleport system will be added to CC at a later date! "
   }
-  SerializationVersion: 81
+  SerializationVersion: 97
   DirectlyPublished: true
 }

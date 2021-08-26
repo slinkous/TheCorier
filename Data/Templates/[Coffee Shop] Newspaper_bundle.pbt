@@ -43,5 +43,5 @@ Assets {
     Version: "1.1.0"
     Description: "\r\nCurrent Publication: Vol 1 Issue 4, Februrary 14, 2021\r\n\r\n- New Sudoku button to erase squares!\r\n\r\nAdd a subscription to the Corier to your project to keep your players informed on the latest in the multiverse!\r\n\r\nIncludes:\r\n\r\nNewspaper Stand with Newspapers\r\nTrigger (only one networked object)\r\nUI Newspaper with 4 Pages\r\n- Front Page\r\n- Editorials\r\n- Core-oscopes\r\n- Sudoku\r\n\r\nNEW ISSUES EVERY TWO WEEKS \r\n\r\nDownload the latest version to get the latest issue!\r\n\r\nRecent Updates:\r\n- Fixed camera overriding bug\r\n- Trigger networking can now be disabled\r\n- Added README\r\n- Sudoku keybindgings now disconnect when newspaper is closed\r\n- Optional event broadcasts to hook into your game\r\n- Changed publication name from The Core-ier to The Corier\r\n"
   }
-  SerializationVersion: 81
+  SerializationVersion: 97
 }

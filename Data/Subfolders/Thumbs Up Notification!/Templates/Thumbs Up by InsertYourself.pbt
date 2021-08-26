@@ -84,6 +84,15 @@ Assets {
             }
           }
           Canvas {
+            Opacity: 1
+            IsHUD: true
+            CanvasWorldSize {
+              X: 1024
+              Y: 1024
+            }
+            TwoSided: true
+            TickWhenOffScreen: true
+            RedrawTime: 30
           }
           AnchorLayout {
             SelfAnchor {
@@ -346,6 +355,6 @@ Assets {
   Marketplace {
     Description: "A UI that reminds the player periodically to Thumbs Up your game!"
   }
-  SerializationVersion: 81
+  SerializationVersion: 97
   DirectlyPublished: true
 }

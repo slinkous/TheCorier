@@ -2,7 +2,7 @@ Assets {
   Id: 18262945535690975850
   Name: "FancyWood2"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 97
   CustomMaterialAsset {
     BaseMaterialId: 1522641986631894419
     ParameterOverrides {

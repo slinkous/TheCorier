@@ -2,7 +2,7 @@ Assets {
   Id: 10120440255001418034
   Name: "GoldTrim"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 97
   CustomMaterialAsset {
     BaseMaterialId: 13710324539950989041
     ParameterOverrides {

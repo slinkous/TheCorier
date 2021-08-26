@@ -55,5 +55,5 @@ Assets {
     Version: "1.0.0"
     Description: "Optimized versions of bookshelf and filing cabinets:\r\nBookshelf_v3\r\nFiling Cabinet_v3\r\nFiling Cabinet_v4 (fewer knobs)"
   }
-  SerializationVersion: 81
+  SerializationVersion: 97
 }

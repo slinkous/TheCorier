@@ -2,7 +2,7 @@ Assets {
   Id: 849282484826773081
   Name: "Bike Paint"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 97
   CustomMaterialAsset {
     BaseMaterialId: 4880170813277602281
     ParameterOverrides {

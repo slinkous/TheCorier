@@ -161,6 +161,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15723532626119672649
+  Name: "Frame Outlined 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "FrameSolid4px_019"
+  }
+}
+Assets {
   Id: 15660915727386990645
   Name: "Sign Bracket - Square"
   PlatformAssetType: 1
@@ -185,6 +194,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_trim_002_corner_ref"
+  }
+}
+Assets {
+  Id: 14781885955149681198
+  Name: "Wallpaper Moroccan 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_wallpaper_002"
   }
 }
 Assets {
@@ -251,6 +269,33 @@ Assets {
   }
 }
 Assets {
+  Id: 13294902272889086201
+  Name: "Cube"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_002"
+  }
+}
+Assets {
+  Id: 13143823079073153681
+  Name: "Food Watermelon 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_food_generic_watermelon_001_uv1"
+  }
+}
+Assets {
+  Id: 12782940202352343062
+  Name: "Wallpaper Chevron 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_wallpaper_004"
+  }
+}
+Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
@@ -266,6 +311,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_trim_003_corner_ref"
+  }
+}
+Assets {
+  Id: 11976062904374489827
+  Name: "BG Gradient 006"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundFlat_015"
   }
 }
 Assets {
@@ -293,6 +347,15 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_Skylight"
+  }
+}
+Assets {
+  Id: 11232286102631575226
+  Name: "Vinyl Floor Diamond 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_urb_vinyl_floor_003_uv_ref"
   }
 }
 Assets {
@@ -332,6 +395,24 @@ Assets {
   }
 }
 Assets {
+  Id: 10343509618385646305
+  Name: "Large Wood Board 8m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_large_board_6m"
+  }
+}
+Assets {
+  Id: 10260417024403774018
+  Name: "Vinyl Floor Stars 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_urb_vinyl_floor_002_uv_ref"
+  }
+}
+Assets {
   Id: 9850774980230889095
   Name: "Cone"
   PlatformAssetType: 1
@@ -365,6 +446,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_door_001_ref"
+  }
+}
+Assets {
+  Id: 8762770251388164140
+  Name: "Camouflage - Digital"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "camo_digital_001"
   }
 }
 Assets {
@@ -422,12 +512,66 @@ Assets {
   }
 }
 Assets {
+  Id: 7710936197634840557
+  Name: "BG Gradient 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundFlat_019"
+  }
+}
+Assets {
   Id: 7531323142721961800
   Name: "Metal Iron Rusted 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_iron_002"
+  }
+}
+Assets {
+  Id: 7412129302559143483
+  Name: "Wallpaper Stars 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_wallpaper_005"
+  }
+}
+Assets {
+  Id: 7127423737510234543
+  Name: "Cardboard Basic 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_cardboard_001_uv_ref"
+  }
+}
+Assets {
+  Id: 7060892841058145413
+  Name: "Roboto Slab"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "RobotoSlabRegular_ref"
+  }
+}
+Assets {
+  Id: 6960732735939662151
+  Name: "Outline Object"
+  PlatformAssetType: 20
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "fxbp_local_outline"
+  }
+}
+Assets {
+  Id: 6619314032976588085
+  Name: "Container - Rectangle Thin 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_container_rectangle_thin_ref"
   }
 }
 Assets {
@@ -476,6 +620,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5479581639397908923
+  Name: "Metal Floor Panel 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_simple_floor_panel_001_uv"
+  }
+}
+Assets {
   Id: 5196377603841433560
   Name: "BG Gradient 001"
   PlatformAssetType: 9
@@ -494,21 +647,21 @@ Assets {
   }
 }
 Assets {
-  Id: 4599583294396833329
-  Name: "Container - Square 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_container_square_ref"
-  }
-}
-Assets {
   Id: 4594745531699986479
   Name: "Craftsman Wall Interior 01 Half"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_wall_int_001_half"
+  }
+}
+Assets {
+  Id: 4558487400482298029
+  Name: "Frame Outlined 006"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "FrameSolid4px_015"
   }
 }
 Assets {
@@ -552,21 +705,21 @@ Assets {
   }
 }
 Assets {
-  Id: 3432605588172399216
-  Name: "Sports Bowling Ball Rolling on Floor Loop 01 SFX"
-  PlatformAssetType: 7
-  PrimaryAsset {
-    AssetType: "AudioAssetRef"
-    AssetId: "sfx_sports_bowling_ball_rolling_floor_loop_01_Cue_ref"
-  }
-}
-Assets {
   Id: 3374330078197732504
   Name: "Main Street Wall 02 - Window 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_mst_wall_002_window_ref"
+  }
+}
+Assets {
+  Id: 3284940111534433168
+  Name: "Cube - Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_001"
   }
 }
 Assets {
@@ -585,6 +738,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_concrete_tiles_001"
+  }
+}
+Assets {
+  Id: 2764905514123890102
+  Name: "Frame Outlined 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "FrameSolid4px_020"
   }
 }
 Assets {
@@ -651,12 +813,21 @@ Assets {
   }
 }
 Assets {
-  Id: 183152300358340459
-  Name: "Bricks Concrete Cinder Block 01"
+  Id: 906413834416783394
+  Name: "Sphere - Half"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_hemisphere_001"
+  }
+}
+Assets {
+  Id: 132672053610873933
+  Name: "Plastic Matte"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
-    AssetId: "mi_brick_concrete_001"
+    AssetId: "plastic_matte_001"
   }
 }
 Assets {
@@ -666,5 +837,14 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_urb_dtn_floor_grate_firesc_2x2_001_ref"
+  }
+}
+Assets {
+  Id: 95491862160091489
+  Name: "Vinyl Floor Square 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_urb_vinyl_floor_001_uv_ref"
   }
 }

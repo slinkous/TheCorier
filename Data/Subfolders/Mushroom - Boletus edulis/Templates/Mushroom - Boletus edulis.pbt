@@ -40,5 +40,5 @@ Assets {
     Version: "1.0.0"
     Description: "Mushroom - Boletus edulis"
   }
-  SerializationVersion: 81
+  SerializationVersion: 97
 }

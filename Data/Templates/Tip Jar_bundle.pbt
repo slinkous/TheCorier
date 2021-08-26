@@ -43,5 +43,5 @@ Assets {
     Version: "1.0.0"
     Description: "Lets you collect tips!"
   }
-  SerializationVersion: 81
+  SerializationVersion: 97
 }

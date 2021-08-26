@@ -2,7 +2,7 @@ Assets {
   Id: 16392638876184073771
   Name: "Tip Jar Glass"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 97
   CustomMaterialAsset {
     BaseMaterialId: 3845026140524878234
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 692462298231855170
   Name: "Newspaper"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 97
   CustomMaterialAsset {
     BaseMaterialId: 12782940202352343062
     ParameterOverrides {

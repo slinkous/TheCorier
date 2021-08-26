@@ -16,10 +16,11 @@ Assets {
           }
         }
         ParentId: 4781671109827199097
+        ChildIds: 7554651251159473137
         ChildIds: 9831993184554430952
         ChildIds: 4137920036830580612
-        ChildIds: 13686058632017073097
-        ChildIds: 3250304922440381371
+        ChildIds: 13002641681283406966
+        ChildIds: 17500798194128387735
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -31,6 +32,109 @@ Assets {
         }
         Folder {
           IsGroup: true
+        }
+      }
+      Objects {
+        Id: 7554651251159473137
+        Name: "Take a Card Sign"
+        Transform {
+          Location {
+            X: -19.9999733
+            Y: 76.6912613
+            Z: 89.8085938
+          }
+          Rotation {
+            Yaw: -89.9999771
+            Roll: 89.9999695
+          }
+          Scale {
+            X: 0.189893261
+            Y: 0.631315053
+            Z: 0.631315351
+          }
+        }
+        ParentId: 9203684064154706675
+        ChildIds: 7365130008357259202
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 10343509618385646305
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 7365130008357259202
+        Name: "World Text"
+        Transform {
+          Location {
+            X: 40.1833611
+            Y: -24.0631084
+            Z: 23.7599125
+          }
+          Rotation {
+            Pitch: 90
+            Yaw: -11.3099499
+            Roll: -101.309967
+          }
+          Scale {
+            X: 3.79246497
+            Y: 1.14073563
+            Z: 1.14073503
+          }
+        }
+        ParentId: 7554651251159473137
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Text {
+          Text: "Click to take a card"
+          FontAsset {
+          }
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+          HorizontalSize: 1
+          VerticalSize: 1
+          HorizontalAlignment {
+            Value: "mc:ecoretexthorizontalalign:left"
+          }
+          VerticalAlignment {
+            Value: "mc:ecoretextverticalalign:center"
+          }
         }
       }
       Objects {
@@ -81,6 +185,39 @@ Assets {
             Name: "cs:Cards"
             ObjectReference {
               SubObjectId: 4137920036830580612
+            }
+          }
+          Overrides {
+            Name: "cs:Trigger"
+            ObjectReference {
+              SubObjectId: 3250304922440381371
+            }
+          }
+          Overrides {
+            Name: "cs:CardShapeBackground"
+            ObjectReference {
+              SubObjectId: 3014937315849204560
+            }
+          }
+          Overrides {
+            Name: "cs:VisitButton"
+            ObjectReference {
+              SubObjectId: 11676636756309877534
+            }
+          }
+          Overrides {
+            Name: "cs:ExitButton"
+            ObjectReference {
+              SubObjectId: 3461697273505527066
+            }
+          }
+          Overrides {
+            Name: "cs:BuisnessCardsLeaderboard"
+            NetReference {
+              Key: "E79DF06602C7F47D"
+              Type {
+                Value: "mc:enetreferencetype:leaderboard"
+              }
             }
           }
         }
@@ -196,6 +333,15 @@ Assets {
             }
           }
           Canvas {
+            Opacity: 1
+            IsHUD: true
+            CanvasWorldSize {
+              X: 1024
+              Y: 1024
+            }
+            TwoSided: true
+            TickWhenOffScreen: true
+            RedrawTime: 30
           }
           AnchorLayout {
             SelfAnchor {
@@ -226,9 +372,6 @@ Assets {
           }
         }
         ParentId: 7157152167641769733
-        ChildIds: 2504772980733126529
-        ChildIds: 5713553810394473271
-        ChildIds: 18229639399117420399
         ChildIds: 11676636756309877534
         ChildIds: 3461697273505527066
         Collidable_v2 {
@@ -260,66 +403,12 @@ Assets {
             }
             TeamSettings {
             }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
+            ShadowColor {
+              A: 0.755000055
             }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middlecenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 2504772980733126529
-        Name: "Paper Texture"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 3014937315849204560
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Control {
-          Width: 600
-          Height: 400
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          UseParentWidth: true
-          UseParentHeight: true
-          Image {
-            Brush {
-              Id: 10171094306677444141
-            }
-            Color {
-              R: 1
-              G: 0.918675482
-              B: 0.692999959
-              A: 0.405000031
-            }
-            TeamSettings {
+            ShadowOffset {
+              X: 3
+              Y: 3
             }
           }
           AnchorLayout {
@@ -331,423 +420,6 @@ Assets {
             TargetAnchor {
               Anchor {
                 Value: "mc:euianchor:middlecenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 5713553810394473271
-        Name: "Graphic Side"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 3014937315849204560
-        ChildIds: 4905090192640193784
-        ChildIds: 12086093496489651830
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Control {
-          Width: 350
-          Height: 100
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          UseParentHeight: true
-          Panel {
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:middleleft"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middleleft"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 4905090192640193784
-        Name: "UI Image"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 5713553810394473271
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Control {
-          Width: 75
-          Height: 83
-          UIX: 107.439453
-          UIY: 116.430634
-          RotationAngle: -90
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Image {
-            Brush {
-              Id: 2638648549410641070
-            }
-            Color {
-              R: 0.0655629113
-              G: 0.0900000334
-              A: 1
-            }
-            TeamSettings {
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:topleft"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:topleft"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 12086093496489651830
-        Name: "UI Image"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 5713553810394473271
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Control {
-          Width: 200
-          Height: 150
-          UIX: -111.524719
-          UIY: -139.147461
-          RotationAngle: 180
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          Image {
-            Brush {
-              Id: 17515820802422838439
-            }
-            Color {
-              R: 0.0334436744
-              G: 0.0499999523
-              A: 1
-            }
-            TeamSettings {
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:topleft"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomright"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 18229639399117420399
-        Name: "Info Side"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 3014937315849204560
-        ChildIds: 16058529405104968790
-        ChildIds: 4581103392642855
-        ChildIds: 16824875577329555240
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Control {
-          Width: 350
-          Height: 100
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          UseParentHeight: true
-          Panel {
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:middleright"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:middleright"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 16058529405104968790
-        Name: "Project Title"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 18229639399117420399
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Control {
-          Width: 200
-          Height: 60
-          UIX: -13.4453735
-          UIY: 67.2573242
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          UseParentWidth: true
-          Text {
-            Label: "Coffee Shop"
-            Color {
-              R: 0.0655629113
-              G: 0.0900000334
-              A: 1
-            }
-            Size: 36
-            Justification {
-              Value: "mc:etextjustify:center"
-            }
-            AutoWrapText: true
-            Font {
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:topcenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:topcenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 4581103392642855
-        Name: "Project Title 2"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 18229639399117420399
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Control {
-          Width: 200
-          Height: 60
-          UIX: -9.60601807
-          UIY: 136.436279
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          UseParentWidth: true
-          Text {
-            Label: "RPG"
-            Color {
-              R: 0.0655629113
-              G: 0.0900000334
-              A: 1
-            }
-            Size: 30
-            Justification {
-              Value: "mc:etextjustify:center"
-            }
-            AutoWrapText: true
-            Font {
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:topcenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:topcenter"
-              }
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 16824875577329555240
-        Name: "Tagline"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 18229639399117420399
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CameraCollidable {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Control {
-          Width: 200
-          Height: 133
-          UIX: -11.5244751
-          UIY: -30.7461548
-          RenderTransformPivot {
-            Anchor {
-              Value: "mc:euianchor:middlecenter"
-            }
-          }
-          UseParentWidth: true
-          Text {
-            Label: "The best coffee in the multiverse"
-            Color {
-              R: 0.0655629113
-              G: 0.0900000334
-              A: 1
-            }
-            Size: 20
-            Justification {
-              Value: "mc:etextjustify:center"
-            }
-            AutoWrapText: true
-            Font {
-            }
-          }
-          AnchorLayout {
-            SelfAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomcenter"
-              }
-            }
-            TargetAnchor {
-              Anchor {
-                Value: "mc:euianchor:bottomcenter"
               }
             }
           }
@@ -823,6 +495,12 @@ Assets {
             }
             IsButtonEnabled: true
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -968,6 +646,12 @@ Assets {
             IsButtonEnabled: true
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -1040,12 +724,229 @@ Assets {
         }
       }
       Objects {
+        Id: 13002641681283406966
+        Name: "Trigger Interaction Example"
+        Transform {
+          Rotation {
+            Yaw: 179.999969
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9203684064154706675
+        ChildIds: 2048218409698052704
+        ChildIds: 5852191862371587928
+        UnregisteredParameters {
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 2048218409698052704
+        Name: "StaticContext"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13002641681283406966
+        ChildIds: 8525766658647127226
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        NetworkContext {
+          Type: RuntimeStatic
+        }
+      }
+      Objects {
+        Id: 8525766658647127226
+        Name: "Collision"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 2048218409698052704
+        ChildIds: 13336374970311922951
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
+        Id: 13336374970311922951
+        Name: "Back"
+        Transform {
+          Location {
+            X: 9.99987793
+            Y: 4.76831201e-06
+            Z: 38.5929565
+          }
+          Rotation {
+            Yaw: -179.999939
+          }
+          Scale {
+            X: 0.05
+            Y: 1.5
+            Z: 1
+          }
+        }
+        ParentId: 8525766658647127226
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 6642169617702943042
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 13294902272889086201
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+            }
+            BoundsScale: 1
+          }
+        }
+      }
+      Objects {
+        Id: 5852191862371587928
+        Name: "ClientContext"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13002641681283406966
+        ChildIds: 17333114360244955449
+        ChildIds: 13751338970086334449
+        ChildIds: 3250304922440381371
+        ChildIds: 1657187232455899577
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 17333114360244955449
+        Name: "Geo"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5852191862371587928
+        ChildIds: 13686058632017073097
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Folder {
+          IsGroup: true
+        }
+      }
+      Objects {
         Id: 13686058632017073097
         Name: "Business Card Holder"
         Transform {
           Location {
           }
           Rotation {
+            Yaw: -179.999954
           }
           Scale {
             X: 0.5
@@ -1053,7 +954,7 @@ Assets {
             Z: 0.5
           }
         }
-        ParentId: 9203684064154706675
+        ParentId: 17333114360244955449
         ChildIds: 15401921172341159854
         ChildIds: 6115337301068983837
         ChildIds: 1948853784003484155
@@ -1079,13 +980,14 @@ Assets {
         Name: "Back"
         Transform {
           Location {
-            X: -19.9997559
-            Z: 77.1859436
+            X: -19.9997406
+            Y: 4.76831292e-06
+            Z: 77.1859131
           }
           Rotation {
           }
           Scale {
-            X: 0.1
+            X: 0.05
             Y: 3
             Z: 2
           }
@@ -1120,6 +1022,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1222,6 +1125,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1271,6 +1175,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1320,6 +1225,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1369,6 +1275,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1418,6 +1325,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1467,6 +1375,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1516,6 +1425,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1565,6 +1475,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1614,6 +1525,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1663,6 +1575,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1712,6 +1625,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1761,6 +1675,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1810,6 +1725,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1859,6 +1775,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1908,6 +1825,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -1957,6 +1875,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2006,6 +1925,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2055,6 +1975,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2103,6 +2024,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2151,6 +2073,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2199,6 +2122,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2247,6 +2171,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2295,6 +2220,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2343,6 +2269,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2485,6 +2412,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2538,6 +2466,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2591,6 +2520,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2644,6 +2574,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2697,6 +2628,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2785,6 +2717,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2838,6 +2771,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2891,6 +2825,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2944,6 +2879,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -2997,6 +2933,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -3085,6 +3022,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -3138,6 +3076,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -3191,6 +3130,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -3244,6 +3184,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -3297,6 +3238,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -3385,6 +3327,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -3438,6 +3381,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -3491,6 +3435,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -3544,6 +3489,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -3597,6 +3543,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -3686,6 +3633,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -3739,6 +3687,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -3792,6 +3741,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -3845,6 +3795,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -3898,6 +3849,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -3996,6 +3948,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -4058,6 +4011,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -4120,6 +4074,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -4182,6 +4137,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -4244,6 +4200,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -4333,6 +4290,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -4386,6 +4344,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -4439,6 +4398,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -4492,6 +4452,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -4545,6 +4506,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -4643,6 +4605,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -4705,6 +4668,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -4767,6 +4731,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -4829,6 +4794,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -4891,6 +4857,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -4980,6 +4947,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -5033,6 +5001,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -5086,6 +5055,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -5139,6 +5109,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -5192,6 +5163,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -5290,6 +5262,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -5352,6 +5325,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -5414,6 +5388,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -5476,6 +5451,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -5537,6 +5513,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -5635,6 +5612,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -5697,6 +5675,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -5759,6 +5738,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -5821,6 +5801,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -5883,6 +5864,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -5972,6 +5954,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -6025,6 +6008,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -6078,6 +6062,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -6131,6 +6116,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -6184,6 +6170,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -6273,6 +6260,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -6326,6 +6314,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -6379,6 +6368,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -6432,6 +6422,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -6485,6 +6476,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -6574,6 +6566,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -6627,6 +6620,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -6680,6 +6674,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -6733,6 +6728,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -6786,6 +6782,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -6875,6 +6872,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -6928,6 +6926,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -6981,6 +6980,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -7034,6 +7034,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -7087,6 +7088,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -7176,6 +7178,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -7229,6 +7232,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -7282,6 +7286,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -7335,6 +7340,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -7388,6 +7394,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -7487,6 +7494,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -7549,6 +7557,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -7611,6 +7620,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -7673,6 +7683,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -7736,6 +7747,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -7826,6 +7838,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -7879,6 +7892,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -7932,6 +7946,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -7985,6 +8000,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -8038,6 +8054,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -8128,6 +8145,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -8181,6 +8199,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -8234,6 +8253,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -8287,6 +8307,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -8340,6 +8361,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -8430,6 +8452,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -8483,6 +8506,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -8536,6 +8560,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -8589,6 +8614,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -8643,6 +8669,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -8733,6 +8760,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -8786,6 +8814,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -8839,6 +8868,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -8892,6 +8922,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -8945,6 +8976,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -9044,6 +9076,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -9106,6 +9139,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -9168,6 +9202,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -9230,6 +9265,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -9292,6 +9328,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -9382,6 +9419,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -9435,6 +9473,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -9488,6 +9527,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -9541,6 +9581,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -9594,6 +9635,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -9684,6 +9726,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -9737,6 +9780,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -9790,6 +9834,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -9843,6 +9888,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -9896,6 +9942,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -9955,6 +10002,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -10014,6 +10062,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -10073,6 +10122,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -10132,28 +10182,74 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
       Objects {
-        Id: 3250304922440381371
-        Name: "Trigger"
+        Id: 13751338970086334449
+        Name: "ChangeColorComponentClient"
         Transform {
           Location {
-            X: 2.47528043e-08
-            Y: 0.103820741
-            Z: 38.1151123
           }
           Rotation {
           }
           Scale {
-            X: 1.00000024
-            Y: 1.5
+            X: 1
+            Y: 1
             Z: 1
           }
         }
-        ParentId: 9203684064154706675
-        ChildIds: 17500798194128387735
+        ParentId: 5852191862371587928
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ComponentRoot"
+            ObjectReference {
+              SubObjectId: 13002641681283406966
+            }
+          }
+          Overrides {
+            Name: "cs:DefaultColor"
+            Color {
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "cs:HoveredColor"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "cs:PressedColor"
+            Color {
+              R: 0.0893377662
+              G: 0.190000057
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "cs:APIInteractionModule"
+            AssetReference {
+              Id: 5787245947590458132
+            }
+          }
+          Overrides {
+            Name: "cs:SubTarget"
+            ObjectReference {
+              SubObjectId: 15401921172341159854
+            }
+          }
+          Overrides {
+            Name: "cs:ObjectsToColor"
+            ObjectReference {
+              SubObjectId: 15401921172341159854
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -10163,9 +10259,44 @@ Assets {
         CameraCollidable {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Script {
+          ScriptAsset {
+            Id: 13796540155003565193
+          }
+        }
+      }
+      Objects {
+        Id: 3250304922440381371
+        Name: "Trigger"
+        Transform {
+          Location {
+            X: -81.755188
+            Y: -0.103859782
+            Z: 38.1151123
+          }
+          Rotation {
+            Yaw: -179.999954
+          }
+          Scale {
+            X: 1.89062357
+            Y: 2.83593655
+            Z: 1.89062202
+          }
+        }
+        ParentId: 5852191862371587928
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
         Trigger {
-          Interactable: true
-          InteractionLabel: "Pick a Business Card"
           TeamSettings {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
@@ -10176,23 +10307,93 @@ Assets {
         }
       }
       Objects {
-        Id: 17500798194128387735
-        Name: "Business Cards Server"
+        Id: 1657187232455899577
+        Name: "BusinessCardInteraction"
         Transform {
           Location {
-            X: 216.290421
-            Y: -446.550873
-            Z: -197.778244
           }
           Rotation {
           }
           Scale {
-            X: 0.322821647
-            Y: 0.363966107
+            X: 1
+            Y: 1
             Z: 1
           }
         }
-        ParentId: 3250304922440381371
+        ParentId: 5852191862371587928
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:ComponentRoot"
+            ObjectReference {
+              SubObjectId: 13002641681283406966
+            }
+          }
+          Overrides {
+            Name: "cs:APIInteractionModule"
+            AssetReference {
+              Id: 5787245947590458132
+            }
+          }
+          Overrides {
+            Name: "cs:SubTarget"
+            ObjectReference {
+              SubObjectId: 15401921172341159854
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Script {
+          ScriptAsset {
+            Id: 11461281931045958038
+          }
+        }
+      }
+      Objects {
+        Id: 17500798194128387735
+        Name: "Business Cards Server"
+        Transform {
+          Location {
+            X: 216.290253
+            Y: -669.722
+            Z: -159.663132
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.322821736
+            Y: 0.545949161
+            Z: 1
+          }
+        }
+        ParentId: 9203684064154706675
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:BuisnessCardsLeaderboard"
+            NetReference {
+              Key: "E79DF06602C7F47D"
+              Type {
+                Value: "mc:enetreferencetype:leaderboard"
+              }
+            }
+          }
+          Overrides {
+            Name: "cs:Trigger"
+            ObjectReference {
+              SubObjectId: 3250304922440381371
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -10210,39 +10411,21 @@ Assets {
       }
     }
     Assets {
+      Id: 10343509618385646305
+      Name: "Large Wood Board 8m"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_large_board_6m"
+      }
+    }
+    Assets {
       Id: 4395169416393909699
       Name: "BG Flat 001"
       PlatformAssetType: 9
       PrimaryAsset {
         AssetType: "PlatformBrushAssetRef"
         AssetId: "BackgroundNoOutline_020"
-      }
-    }
-    Assets {
-      Id: 10171094306677444141
-      Name: "Sci-fi Fill 004"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_SciFi_Fill_004"
-      }
-    }
-    Assets {
-      Id: 2638648549410641070
-      Name: "Icon Wind"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "Icon_Wind"
-      }
-    }
-    Assets {
-      Id: 17515820802422838439
-      Name: "Stein"
-      PlatformAssetType: 9
-      PrimaryAsset {
-        AssetType: "PlatformBrushAssetRef"
-        AssetId: "UI_Fantasy_icon_Beer"
       }
     }
     Assets {
@@ -10424,6 +10607,6 @@ Assets {
   Marketplace {
     Description: "Business Card System"
   }
-  SerializationVersion: 81
+  SerializationVersion: 97
   DirectlyPublished: true
 }

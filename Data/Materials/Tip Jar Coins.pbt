@@ -2,7 +2,7 @@ Assets {
   Id: 6333956468749516669
   Name: "Tip Jar Coins"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 97
   CustomMaterialAsset {
     BaseMaterialId: 13105122373339812600
     ParameterOverrides {

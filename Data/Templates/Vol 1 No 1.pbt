@@ -33,6 +33,15 @@ Assets {
             }
           }
           Canvas {
+            Opacity: 1
+            IsHUD: true
+            CanvasWorldSize {
+              X: 1024
+              Y: 1024
+            }
+            TwoSided: true
+            TickWhenOffScreen: true
+            RedrawTime: 30
           }
           AnchorLayout {
             SelfAnchor {
@@ -88,6 +97,7 @@ Assets {
           }
           UseParentHeight: true
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -176,6 +186,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -289,6 +305,7 @@ Assets {
           }
           UseParentHeight: true
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -405,6 +422,7 @@ Assets {
           }
           UseParentWidth: true
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -1181,6 +1199,7 @@ Assets {
           }
           UseParentWidth: true
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -1352,6 +1371,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -1463,6 +1483,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -1809,7 +1830,7 @@ Assets {
         Control {
           Width: 263
           Height: 127
-          UIX: 0.000122070313
+          UIX: 0.000122070312
           UIY: -5.95141602
           RenderTransformPivot {
             Anchor {
@@ -1999,6 +2020,7 @@ Assets {
           }
           UseParentWidth: true
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -2534,6 +2556,7 @@ Assets {
           }
           UseParentWidth: true
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -2707,6 +2730,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -3064,6 +3088,7 @@ Assets {
           }
           UseParentWidth: true
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -3356,6 +3381,7 @@ Assets {
           }
           UseParentWidth: true
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -3418,6 +3444,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -5710,6 +5737,7 @@ Assets {
           }
           UseParentWidth: true
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -5999,6 +6027,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -6048,6 +6077,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -6824,6 +6854,7 @@ Assets {
           UseParentWidth: true
           UseParentHeight: true
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -6904,6 +6935,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -6986,6 +7023,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -7066,6 +7109,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -7148,6 +7197,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -7227,6 +7282,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -7309,6 +7370,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -7389,6 +7456,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -7471,6 +7544,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -7551,6 +7630,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -7633,6 +7718,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -7713,6 +7804,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -7795,6 +7892,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -7876,6 +7979,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -7955,6 +8064,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -8037,6 +8152,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -8117,6 +8238,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -8199,6 +8326,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -8279,6 +8412,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -8361,6 +8500,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -8441,6 +8586,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -8523,6 +8674,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -8604,6 +8761,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -8683,6 +8846,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -8765,6 +8934,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -8845,6 +9020,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -8927,6 +9108,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -9007,6 +9194,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -9089,6 +9282,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -9169,6 +9368,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -9251,6 +9456,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -9332,6 +9543,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -9411,6 +9628,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -9493,6 +9716,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -9573,6 +9802,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -9655,6 +9890,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -9736,6 +9977,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -9815,6 +10062,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -9896,6 +10149,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -9975,6 +10234,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -10056,6 +10321,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -10134,6 +10405,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -10215,6 +10492,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -10294,6 +10577,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -10375,6 +10664,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -10454,6 +10749,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -10536,6 +10837,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -10616,6 +10923,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -10698,6 +11011,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -10779,6 +11098,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -10858,6 +11183,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -10940,6 +11271,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -11020,6 +11357,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -11102,6 +11445,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -11182,6 +11531,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -11264,6 +11619,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -11344,6 +11705,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -11426,6 +11793,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -11507,6 +11880,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -11586,6 +11965,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -11668,6 +12053,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -11748,6 +12139,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -11830,6 +12227,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -11910,6 +12313,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -11992,6 +12401,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -12072,6 +12487,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -12154,6 +12575,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -12235,6 +12662,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -12314,6 +12747,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -12396,6 +12835,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -12476,6 +12921,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -12558,6 +13009,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -12638,6 +13095,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -12720,6 +13183,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -12800,6 +13269,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -12882,6 +13357,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -12963,6 +13444,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -13042,6 +13529,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -13124,6 +13617,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -13204,6 +13703,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -13286,6 +13791,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -13367,6 +13878,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -13417,6 +13934,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -13503,6 +14021,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -13592,6 +14116,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -13641,6 +14171,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -13793,6 +14324,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -13880,6 +14417,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -14109,5 +14652,5 @@ Assets {
       AssetId: "None"
     }
   }
-  SerializationVersion: 81
+  SerializationVersion: 97
 }

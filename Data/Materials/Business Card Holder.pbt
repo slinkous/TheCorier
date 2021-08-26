@@ -2,7 +2,7 @@ Assets {
   Id: 6642169617702943042
   Name: "Business Card Holder"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 97
   CustomMaterialAsset {
     BaseMaterialId: 6999580355068914447
     ParameterOverrides {

@@ -97,6 +97,7 @@ Assets {
               Mass: 100
               LinearDamping: 0.01
             }
+            BoundsScale: 1
           }
         }
       }
@@ -722,6 +723,6 @@ Assets {
   Marketplace {
     Description: "Let players tip you for your hard work with this complete* tip jar kit!\r\n\r\n*Just add Perk and Leaderboard!"
   }
-  SerializationVersion: 81
+  SerializationVersion: 97
   DirectlyPublished: true
 }

@@ -96,6 +96,15 @@ Assets {
             }
           }
           Canvas {
+            Opacity: 1
+            IsHUD: true
+            CanvasWorldSize {
+              X: 1024
+              Y: 1024
+            }
+            TwoSided: true
+            TickWhenOffScreen: true
+            RedrawTime: 30
           }
           AnchorLayout {
             SelfAnchor {
@@ -151,6 +160,7 @@ Assets {
           }
           UseParentHeight: true
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -239,6 +249,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -353,6 +369,7 @@ Assets {
           }
           UseParentHeight: true
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -470,6 +487,7 @@ Assets {
           }
           UseParentWidth: true
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -1246,6 +1264,7 @@ Assets {
           }
           UseParentWidth: true
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -1419,6 +1438,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -1599,6 +1619,7 @@ Assets {
           }
           Panel {
             IsClipping: true
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -2083,6 +2104,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -2682,6 +2704,7 @@ Assets {
           }
           UseParentWidth: true
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -2973,6 +2996,7 @@ Assets {
           }
           UseParentWidth: true
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -3273,6 +3297,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -3630,6 +3655,7 @@ Assets {
           }
           UseParentWidth: true
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -3922,6 +3948,7 @@ Assets {
           }
           UseParentWidth: true
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -3984,6 +4011,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -6282,6 +6310,7 @@ Assets {
           }
           UseParentWidth: true
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -6571,6 +6600,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -6620,6 +6650,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -7396,6 +7427,7 @@ Assets {
           UseParentWidth: true
           UseParentHeight: true
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -7476,6 +7508,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -7558,6 +7596,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -7638,6 +7682,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -7720,6 +7770,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -7799,6 +7855,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -7881,6 +7943,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -7961,6 +8029,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -8043,6 +8117,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -8123,6 +8203,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -8205,6 +8291,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -8285,6 +8377,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -8367,6 +8465,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -8448,6 +8552,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -8527,6 +8637,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -8609,6 +8725,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -8689,6 +8811,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -8771,6 +8899,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -8851,6 +8985,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -8933,6 +9073,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -9013,6 +9159,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -9095,6 +9247,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -9176,6 +9334,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -9255,6 +9419,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -9337,6 +9507,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -9417,6 +9593,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -9499,6 +9681,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -9579,6 +9767,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -9661,6 +9855,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -9741,6 +9941,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -9823,6 +10029,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -9904,6 +10116,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -9983,6 +10201,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -10065,6 +10289,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -10145,6 +10375,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -10227,6 +10463,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -10308,6 +10550,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -10387,6 +10635,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -10468,6 +10722,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -10547,6 +10807,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -10628,6 +10894,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -10706,6 +10978,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -10787,6 +11065,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -10866,6 +11150,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -10947,6 +11237,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -11026,6 +11322,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -11108,6 +11410,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -11188,6 +11496,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -11270,6 +11584,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -11351,6 +11671,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -11430,6 +11756,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -11512,6 +11844,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -11592,6 +11930,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -11674,6 +12018,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -11754,6 +12104,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -11836,6 +12192,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -11916,6 +12278,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -11998,6 +12366,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -12079,6 +12453,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -12158,6 +12538,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -12240,6 +12626,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -12320,6 +12712,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -12402,6 +12800,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -12482,6 +12886,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -12564,6 +12974,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -12644,6 +13060,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -12726,6 +13148,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -12807,6 +13235,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -12886,6 +13320,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -12968,6 +13408,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -13048,6 +13494,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -13130,6 +13582,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -13210,6 +13668,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -13292,6 +13756,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -13372,6 +13842,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -13454,6 +13930,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -13535,6 +14017,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -13614,6 +14102,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -13696,6 +14190,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -13776,6 +14276,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -13858,6 +14364,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -13939,6 +14451,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -13990,6 +14508,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -14076,6 +14595,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -14164,6 +14689,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -14254,6 +14785,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -14303,6 +14840,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -14481,6 +15019,7 @@ Assets {
           }
           UseParentWidth: true
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -14778,6 +15317,7 @@ Assets {
           }
           UseParentWidth: true
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -16366,6 +16906,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -16454,6 +17000,12 @@ Assets {
             }
             Font {
             }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
           }
           AnchorLayout {
             SelfAnchor {
@@ -16474,7 +17026,7 @@ Assets {
         Name: "SudokuScript"
         Transform {
           Location {
-            Y: -6.10351563e-05
+            Y: -6.10351562e-05
           }
           Rotation {
           }
@@ -16742,7 +17294,7 @@ Assets {
         Name: "Newspaper Stand"
         Transform {
           Location {
-            Y: -6.10351563e-05
+            Y: -6.10351562e-05
             Z: 17.5016289
           }
           Rotation {
@@ -16881,6 +17433,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -17317,6 +17870,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -17752,6 +18306,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -18187,6 +18742,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -18622,6 +19178,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -19057,6 +19614,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -19493,6 +20051,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -19928,6 +20487,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -20363,6 +20923,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -20798,6 +21359,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -21233,6 +21795,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -21731,6 +22294,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -21794,6 +22358,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -21856,6 +22421,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -21918,6 +22484,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -21981,6 +22548,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -22044,6 +22612,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -22107,6 +22676,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -22168,6 +22738,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -22279,6 +22850,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -22342,6 +22914,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -22404,6 +22977,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -22466,6 +23040,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -22529,6 +23104,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -22592,6 +23168,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -22655,6 +23232,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -22716,6 +23294,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -22779,6 +23358,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -22841,6 +23421,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -22903,6 +23484,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -22965,6 +23547,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -23027,6 +23610,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -23089,6 +23673,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -23151,6 +23736,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -23213,6 +23799,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -23275,6 +23862,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -23337,6 +23925,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -23399,6 +23988,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -23449,7 +24039,7 @@ Assets {
         Transform {
           Location {
             X: 13.0822754
-            Y: -0.0239257813
+            Y: -0.0239257812
             Z: 74.7084198
           }
           Rotation {
@@ -23502,6 +24092,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -23511,7 +24102,7 @@ Assets {
         Transform {
           Location {
             X: 13.0822754
-            Y: -0.0239257813
+            Y: -0.0239257812
             Z: 24.7209244
           }
           Rotation {
@@ -23564,6 +24155,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -23573,7 +24165,7 @@ Assets {
         Transform {
           Location {
             X: 13.0822754
-            Y: -0.0239257813
+            Y: -0.0239257812
             Z: 52.196846
           }
           Rotation {
@@ -23626,6 +24218,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -23635,7 +24228,7 @@ Assets {
         Transform {
           Location {
             X: 13.0822754
-            Y: -0.0239257813
+            Y: -0.0239257812
           }
           Rotation {
             Yaw: -89.9999847
@@ -23687,6 +24280,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -23696,7 +24290,7 @@ Assets {
         Transform {
           Location {
             X: 9.80004883
-            Y: -0.0239257813
+            Y: -0.0239257812
             Z: 74.7084198
           }
           Rotation {
@@ -23749,6 +24343,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -23758,7 +24353,7 @@ Assets {
         Transform {
           Location {
             X: -4.75439453
-            Y: -0.0239257813
+            Y: -0.0239257812
             Z: 74.7084198
           }
           Rotation {
@@ -23811,6 +24406,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -23820,7 +24416,7 @@ Assets {
         Transform {
           Location {
             X: -15.5224609
-            Y: -0.0239257813
+            Y: -0.0239257812
             Z: 74.7084198
           }
           Rotation {
@@ -23873,6 +24469,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -23882,7 +24479,7 @@ Assets {
         Transform {
           Location {
             X: -31.145752
-            Y: -0.0239257813
+            Y: -0.0239257812
             Z: 74.7084198
           }
           Rotation {
@@ -23935,6 +24532,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -23997,6 +24595,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -24006,7 +24605,7 @@ Assets {
         Transform {
           Location {
             X: 8.24316406
-            Y: -0.0239257813
+            Y: -0.0239257812
             Z: 90.0010147
           }
           Rotation {
@@ -24059,6 +24658,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -24126,6 +24726,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -24213,6 +24814,7 @@ Assets {
           StaticMesh {
             Physics {
             }
+            BoundsScale: 1
           }
         }
       }
@@ -24549,6 +25151,6 @@ Assets {
   Marketplace {
     Description: "Add a subscription to the Core-ier to your project to keep your players informed on the latest in the multiverse!\r\n\r\n\r\nIncludes:\r\n\r\nNewspaper Stand with Newspapers\r\nTrigger (only one networked object)\r\nUI Newspaper with 4 Pages\r\n- Front Page\r\n- Editorials\r\n- Core-oscopes\r\n- Sudoku\r\n\r\nNEW ISSUES EVERY TWO WEEKS \r\n\r\nDownload the latest version to get the latest issue!\r\n\r\nCurrent Publication: Vol 1 Issue 1, December 13, 2020\r\n"
   }
-  SerializationVersion: 81
+  SerializationVersion: 97
   DirectlyPublished: true
 }

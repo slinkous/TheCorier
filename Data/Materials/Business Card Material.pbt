@@ -2,7 +2,7 @@ Assets {
   Id: 2890596962130675172
   Name: "Business Card Material"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 97
   CustomMaterialAsset {
     BaseMaterialId: 8560584612580696198
     ParameterOverrides {

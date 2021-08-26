@@ -43,5 +43,5 @@ Assets {
     Version: "1.2.0"
     Description: "A UI that reminds the player periodically to Thumbs Up your game!"
   }
-  SerializationVersion: 81
+  SerializationVersion: 97
 }

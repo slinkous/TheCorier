@@ -142,6 +142,15 @@ Assets {
             }
           }
           Canvas {
+            Opacity: 1
+            IsHUD: true
+            CanvasWorldSize {
+              X: 1024
+              Y: 1024
+            }
+            TwoSided: true
+            TickWhenOffScreen: true
+            RedrawTime: 30
           }
           AnchorLayout {
             SelfAnchor {
@@ -164,7 +173,7 @@ Assets {
           Location {
             X: -845.209229
             Y: -790.295349
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
           }
@@ -198,6 +207,7 @@ Assets {
             }
           }
           Panel {
+            Opacity: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -528,7 +538,7 @@ Assets {
           Location {
             X: -845.209229
             Y: -790.295349
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
           }
@@ -600,7 +610,7 @@ Assets {
           Location {
             X: -845.209229
             Y: -790.295349
-            Z: -6.10351563e-05
+            Z: -6.10351562e-05
           }
           Rotation {
           }
@@ -665,6 +675,12 @@ Assets {
               Value: "mc:ebuttonclickmode:default"
             }
             Font {
+            }
+            Justification {
+              Value: "mc:etextjustify:center"
+            }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
             }
           }
           AnchorLayout {
@@ -818,6 +834,6 @@ Assets {
   Marketplace {
     Description: "Let players tip you for your hard work with this complete* tip jar kit!\r\n\r\n*Just add Perk and Leaderboard!"
   }
-  SerializationVersion: 81
+  SerializationVersion: 97
   DirectlyPublished: true
 }

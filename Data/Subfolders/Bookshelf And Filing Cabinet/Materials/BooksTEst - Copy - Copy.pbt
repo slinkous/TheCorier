@@ -2,7 +2,7 @@ Assets {
   Id: 18356604708840530945
   Name: "BooksTEst - Copy - Copy"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 97
   CustomMaterialAsset {
     BaseMaterialId: 4238317304492472765
     ParameterOverrides {

@@ -1,4 +1,4 @@
-﻿ObjectSettings {
+ObjectSettings {
   ObjectStates {
     key: 49919874393767529
     value {
@@ -316,6 +316,11 @@
   }
   ObjectStates {
     key: 1203292173106184561
+    value {
+    }
+  }
+  ObjectStates {
+    key: 1206048797692594593
     value {
     }
   }
@@ -2225,6 +2230,11 @@
     }
   }
   ObjectStates {
+    key: 8185299624621507608
+    value {
+    }
+  }
+  ObjectStates {
     key: 8198115481446494265
     value {
     }
@@ -2256,6 +2266,11 @@
   }
   ObjectStates {
     key: 8339255589882127514
+    value {
+    }
+  }
+  ObjectStates {
+    key: 8347143484807161254
     value {
     }
   }
@@ -2761,6 +2776,11 @@
   }
   ObjectStates {
     key: 10279192344443934561
+    value {
+    }
+  }
+  ObjectStates {
+    key: 10295738153209644470
     value {
     }
   }
@@ -3355,6 +3375,11 @@
     }
   }
   ObjectStates {
+    key: 12736450356475510787
+    value {
+    }
+  }
+  ObjectStates {
     key: 12747452723557470801
     value {
     }
@@ -3381,6 +3406,11 @@
   }
   ObjectStates {
     key: 12812543508917228277
+    value {
+    }
+  }
+  ObjectStates {
+    key: 12855277399940634775
     value {
     }
   }
@@ -4440,6 +4470,11 @@
     }
   }
   ObjectStates {
+    key: 16400371188139201052
+    value {
+    }
+  }
+  ObjectStates {
     key: 16423833147804667006
     value {
     }
@@ -4845,7 +4880,17 @@
     }
   }
   ObjectStates {
+    key: 18003573433517612282
+    value {
+    }
+  }
+  ObjectStates {
     key: 18024805880982174347
+    value {
+    }
+  }
+  ObjectStates {
+    key: 18033693170732651606
     value {
     }
   }
@@ -4990,3 +5035,4 @@
     }
   }
 }
+LastSavedScene: "Main"

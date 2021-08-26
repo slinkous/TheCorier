@@ -2,7 +2,7 @@ Assets {
   Id: 14076307128982500897
   Name: "Tip Jar Bills"
   PlatformAssetType: 13
-  SerializationVersion: 81
+  SerializationVersion: 97
   CustomMaterialAsset {
     BaseMaterialId: 7492027126042798403
     ParameterOverrides {

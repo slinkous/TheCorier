@@ -51,5 +51,5 @@ Assets {
     Version: "1.0.0"
     Description: "For the Lua Light tutorial"
   }
-  SerializationVersion: 81
+  SerializationVersion: 97
 }
